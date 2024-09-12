@@ -1,3 +1,5 @@
+from reader import data_reader
+
 def displayHeader():
     print("Welcome to a general knowledge quiz")
 
@@ -12,6 +14,7 @@ def displayRules():
 def main():
     displayHeader()
     displayRules()
+    data_reader.get_options()
     
 
 if __name__ == "__main__":
