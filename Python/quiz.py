@@ -12,6 +12,7 @@ def displayRules():
 def main():
     displayHeader()
     displayRules()
+    
 
 if __name__ == "__main__":
     main()
