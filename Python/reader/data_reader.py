@@ -6,7 +6,7 @@ def get_data(opt):
         case "sections":
             return(get_section())
         case "question":
-            pass
+            return(get_questions(opt))
 
 
 def get_options():
@@ -31,10 +31,14 @@ def get_options():
                 print(f"Please select a number between 1 and {len(sections)}.")
         except ValueError:
             print("Invalid input. Please enter a valid number.")
-
-            
-def get_question(opt):
-    pass
+     
+def get_questions(opt):
+    questions = []
+    
+    with open("Data\quiz_data.json", "r") as file :
+        data = json.load(file)
+        questions = list(data["sections"][f"{opt}"])
+    return questions
 
 def get_section():
     section = []
