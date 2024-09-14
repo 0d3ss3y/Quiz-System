@@ -1,4 +1,5 @@
 from reader import data_reader
+from answersheet import answersheet
 import os
 
 def displayHeader():
@@ -19,7 +20,8 @@ def main():
     displayHeader()
     displayRules()
     opt = data_reader.get_options()
-    clearing()    
+    clearing()
+    answersheet.sheet(opt)  
     
 
 if __name__ == "__main__":
