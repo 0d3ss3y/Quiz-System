@@ -6,6 +6,7 @@ def displayCategory(cate):
 
 
 def get_answer(ques_dict):
+    score = 0
     question = ques_dict["question"]
     options = ques_dict["options"]
     answer = ques_dict["answer"]
@@ -20,6 +21,9 @@ def get_answer(ques_dict):
             
         if ord("A") <=  ord(selected_opt) <= ord("D"):
             print(f"You selected: {selected_opt}")
+            
+            if selected_opt == answer:
+                score += 1
         else:
             print(f"Please select a number between A and D.")
     
@@ -27,10 +31,9 @@ def get_answer(ques_dict):
         print("Invalid input. Please enter a valid number.")
         
     print()
-    return 0
+    return score
         
     
-
 def sheet(category):
     score = 0
     displayCategory(category)
@@ -40,7 +43,5 @@ def sheet(category):
         question_dict = dict(sheet)
         answer = get_answer(question_dict)
         score += answer
-        
-        
-        
-
+    
+    quiz.clearing()
