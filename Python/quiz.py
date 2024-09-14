@@ -1,4 +1,5 @@
 from reader import data_reader
+import os
 
 def displayHeader():
     print("Welcome to a general knowledge quiz")
@@ -11,10 +12,14 @@ def displayRules():
 4. AT THE END A SCORE WILL BE CALCULATED
           """)
 
+def clearing():
+    os.system("cls")
+
 def main():
     displayHeader()
     displayRules()
-    data_reader.get_options()
+    opt = data_reader.get_options()
+    clearing()    
     
 
 if __name__ == "__main__":

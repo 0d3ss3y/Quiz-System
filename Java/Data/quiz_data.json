@@ -1,0 +1,535 @@
+{
+  "sections": {
+    "Math": [
+      {
+        "question": "What is 7 + 6?",
+        "options": ["12", "13", "14", "15"],
+        "answer": "13"
+      },
+      {
+        "question": "What is the square root of 16?",
+        "options": ["2", "3", "4", "5"],
+        "answer": "4"
+      },
+      {
+        "question": "What is 18 ÷ 3?",
+        "options": ["5", "6", "7", "8"],
+        "answer": "6"
+      },
+      {
+        "question": "What is 14 x 3?",
+        "options": ["38", "39", "42", "45"],
+        "answer": "42"
+      },
+      {
+        "question": "What is 250 - 175?",
+        "options": ["65", "70", "75", "80"],
+        "answer": "75"
+      },
+      {
+        "question": "What is 9 x 9?",
+        "options": ["72", "81", "88", "90"],
+        "answer": "81"
+      },
+      {
+        "question": "What is 100 ÷ 25?",
+        "options": ["2", "3", "4", "5"],
+        "answer": "4"
+      },
+      {
+        "question": "What is the square of 12?",
+        "options": ["124", "144", "166", "184"],
+        "answer": "144"
+      },
+      {
+        "question": "What is the cube root of 64?",
+        "options": ["2", "3", "4", "5"],
+        "answer": "4"
+      },
+      {
+        "question": "What is 30% of 150?",
+        "options": ["30", "35", "45", "50"],
+        "answer": "45"
+      }
+    ],
+
+    "Science": [
+      {
+        "question": "What is the chemical symbol for sodium?",
+        "options": ["S", "Na", "O", "N"],
+        "answer": "Na"
+      },
+      {
+        "question": "What planet is closest to the Sun?",
+        "options": ["Venus", "Earth", "Mercury", "Mars"],
+        "answer": "Mercury"
+      },
+      {
+        "question": "What gas do we exhale?",
+        "options": ["Oxygen", "Carbon Dioxide", "Nitrogen", "Helium"],
+        "answer": "Carbon Dioxide"
+      },
+      {
+        "question": "How many bones are in the human body?",
+        "options": ["206", "208", "210", "215"],
+        "answer": "206"
+      },
+      {
+        "question": "What is the main component of the Sun?",
+        "options": ["Helium", "Carbon", "Oxygen", "Hydrogen"],
+        "answer": "Hydrogen"
+      },
+      {
+        "question": "What is the periodic symbol for gold?",
+        "options": ["Ag", "Au", "Gd", "Hg"],
+        "answer": "Au"
+      },
+      {
+        "question": "Which planet is known as the 'Giant Planet'?",
+        "options": ["Saturn", "Jupiter", "Uranus", "Neptune"],
+        "answer": "Jupiter"
+      },
+      {
+        "question": "What is the unit of force?",
+        "options": ["Newton", "Pascal", "Joule", "Watt"],
+        "answer": "Newton"
+      },
+      {
+        "question": "What does DNA stand for?",
+        "options": ["Deoxyribonucleic Acid", "Dynamic Neutron Atom", "Data Nucleic Acid", "Deca Neutral Atom"],
+        "answer": "Deoxyribonucleic Acid"
+      },
+      {
+        "question": "What gas is essential for breathing?",
+        "options": ["Carbon", "Oxygen", "Nitrogen", "Helium"],
+        "answer": "Oxygen"
+      }
+    ],
+
+    "History": [
+      {
+        "question": "Who discovered America?",
+        "options": ["Leif Erikson", "Christopher Columbus", "James Cook", "Vasco da Gama"],
+        "answer": "Christopher Columbus"
+      },
+      {
+        "question": "In which year did World War I begin?",
+        "options": ["1912", "1914", "1916", "1918"],
+        "answer": "1914"
+      },
+      {
+        "question": "Who was the first President of the United States?",
+        "options": ["George Washington", "John Adams", "Thomas Jefferson", "Abraham Lincoln"],
+        "answer": "George Washington"
+      },
+      {
+        "question": "When was the Berlin Wall demolished?",
+        "options": ["1987", "1989", "1991", "1993"],
+        "answer": "1989"
+      },
+      {
+        "question": "Who led the Mongol Empire?",
+        "options": ["Attila", "Genghis Khan", "Kublai Khan", "Timur"],
+        "answer": "Genghis Khan"
+      },
+      {
+        "question": "Which war took place between the North and South United States?",
+        "options": ["World War I", "The American Revolution", "The Civil War", "Vietnam War"],
+        "answer": "The Civil War"
+      },
+      {
+        "question": "Who was the first man to step on the Moon?",
+        "options": ["Yuri Gagarin", "Neil Armstrong", "Buzz Aldrin", "Michael Collins"],
+        "answer": "Neil Armstrong"
+      },
+      {
+        "question": "What year did the Titanic sink?",
+        "options": ["1910", "1911", "1912", "1913"],
+        "answer": "1912"
+      },
+      {
+        "question": "Who was the British Prime Minister during World War II?",
+        "options": ["Neville Chamberlain", "Winston Churchill", "Clement Attlee", "David Lloyd George"],
+        "answer": "Winston Churchill"
+      },
+      {
+        "question": "Which country gifted the Statue of Liberty to the United States?",
+        "options": ["Germany", "France", "Italy", "Spain"],
+        "answer": "France"
+      }
+    ],
+
+    "Geography": [
+      {
+        "question": "What is the capital of France?",
+        "options": ["Paris", "London", "Berlin", "Madrid"],
+        "answer": "Paris"
+      },
+      {
+        "question": "Which continent is the Sahara Desert located in?",
+        "options": ["Asia", "Africa", "Australia", "South America"],
+        "answer": "Africa"
+      },
+      {
+        "question": "Which ocean is the largest?",
+        "options": ["Atlantic", "Pacific", "Indian", "Arctic"],
+        "answer": "Pacific"
+      },
+      {
+        "question": "Which country has the most people?",
+        "options": ["India", "United States", "Russia", "China"],
+        "answer": "China"
+      },
+      {
+        "question": "Which country is known as the Land of the Rising Sun?",
+        "options": ["India", "China", "Japan", "Thailand"],
+        "answer": "Japan"
+      },
+      {
+        "question": "What is the longest river in the world?",
+        "options": ["Amazon", "Nile", "Yangtze", "Mississippi"],
+        "answer": "Nile"
+      },
+      {
+        "question": "Which is the smallest continent by land area?",
+        "options": ["Africa", "Australia", "Europe", "South America"],
+        "answer": "Australia"
+      },
+      {
+        "question": "Which mountain is the tallest in the world?",
+        "options": ["Mount Kilimanjaro", "K2", "Mount Everest", "Denali"],
+        "answer": "Mount Everest"
+      },
+      {
+        "question": "Which European country is famous for tulips?",
+        "options": ["France", "Germany", "Netherlands", "Italy"],
+        "answer": "Netherlands"
+      },
+      {
+        "question": "Which country is known for the pyramids?",
+        "options": ["Egypt", "Mexico", "China", "Greece"],
+        "answer": "Egypt"
+      }
+    ],
+
+    "Literature": [
+      {
+        "question": "Who wrote 'Romeo and Juliet'?",
+        "options": ["Charles Dickens", "William Shakespeare", "J.K. Rowling", "George Orwell"],
+        "answer": "William Shakespeare"
+      },
+      {
+        "question": "Who wrote '1984'?",
+        "options": ["J.K. Rowling", "George Orwell", "H.G. Wells", "Aldous Huxley"],
+        "answer": "George Orwell"
+      },
+      {
+        "question": "Which book begins with 'Call me Ishmael'?",
+        "options": ["The Great Gatsby", "Moby Dick", "War and Peace", "The Catcher in the Rye"],
+        "answer": "Moby Dick"
+      },
+      {
+        "question": "Who wrote 'The Catcher in the Rye'?",
+        "options": ["Ernest Hemingway", "F. Scott Fitzgerald", "J.D. Salinger", "Mark Twain"],
+        "answer": "J.D. Salinger"
+      },
+      {
+        "question": "Who wrote 'Pride and Prejudice'?",
+        "options": ["Jane Austen", "Emily Brontë", "Charlotte Brontë", "Mary Shelley"],
+        "answer": "Jane Austen"
+      },
+      {
+        "question": "Who wrote 'The Hobbit'?",
+        "options": ["J.K. Rowling", "J.R.R. Tolkien", "C.S. Lewis", "George R.R. Martin"],
+        "answer": "J.R.R. Tolkien"
+      },
+      {
+        "question": "Who wrote 'The Odyssey'?",
+        "options": ["Homer", "Sophocles", "Virgil", "Plato"],
+        "answer": "Homer"
+      },
+      {
+        "question": "Who wrote 'Brave New World'?",
+        "options": ["George Orwell", "Aldous Huxley", "Ray Bradbury", "Kurt Vonnegut"],
+        "answer": "Aldous Huxley"
+      },
+      {
+        "question": "Who wrote 'To Kill a Mockingbird'?",
+        "options": ["Harper Lee", "J.D. Salinger", "Mark Twain", "John Steinbeck"],
+        "answer": "Harper Lee"
+      },
+      {
+        "question": "Who wrote 'The Grapes of Wrath'?",
+        "options": ["Ernest Hemingway", "John Steinbeck", "William Faulkner", "F. Scott Fitzgerald"],
+        "answer": "John Steinbeck"
+      }
+    ],
+
+    "Technology": [
+      {
+        "question": "What is the brain of the computer?",
+        "options": ["Motherboard", "CPU", "RAM", "Hard Drive"],
+        "answer": "CPU"
+      },
+      {
+        "question": "What does HTTP stand for?",
+        "options": ["Hypertext Transfer Protocol", "Hypertext Translation Protocol", "Hyperlink Transfer Protocol", "High Transmission Transfer Protocol"],
+        "answer": "Hypertext Transfer Protocol"
+      },
+      {
+        "question": "What was the first programming language?",
+        "options": ["COBOL", "Fortran", "Assembly", "C"],
+        "answer": "Fortran"
+      },
+      {
+        "question": "What is the file extension for a Python file?",
+        "options": [".py", ".js", ".java", ".html"],
+        "answer": ".py"
+      },
+      {
+        "question": "Which company created the iPhone?",
+        "options": ["Samsung", "Microsoft", "Google", "Apple"],
+        "answer": "Apple"
+      },
+      {
+        "question": "What does RAM stand for?",
+        "options": ["Random Access Memory", "Read Access Memory", "Run Access Memory", "Random Array Memory"],
+        "answer": "Random Access Memory"
+      },
+      {
+        "question": "Which programming language is known as the language of the web?",
+        "options": ["Java", "C#", "Python", "JavaScript"],
+        "answer": "JavaScript"
+      },
+      {
+        "question": "What is the name of the first electronic general-purpose computer?",
+        "options": ["ENIAC", "UNIVAC", "IBM", "MAC"],
+        "answer": "ENIAC"
+      },
+      {
+        "question": "Which is not a programming language?",
+        "options": ["Python", "Java", "HTML", "C++"],
+        "answer": "HTML"
+      },
+      {
+        "question": "What is the most popular operating system?",
+        "options": ["MacOS", "Linux", "Windows", "Android"],
+        "answer": "Windows"
+      }
+    ],
+
+    "Sports": [
+      {
+        "question": "What sport does Lionel Messi play?",
+        "options": ["Basketball", "Football", "Tennis", "Golf"],
+        "answer": "Football"
+      },
+      {
+        "question": "Which country won the 2018 FIFA World Cup?",
+        "options": ["Germany", "Brazil", "Argentina", "France"],
+        "answer": "France"
+      },
+      {
+        "question": "Who is the fastest man in the world?",
+        "options": ["Carl Lewis", "Usain Bolt", "Yohan Blake", "Tyson Gay"],
+        "answer": "Usain Bolt"
+      },
+      {
+        "question": "Which country hosted the 2008 Olympics?",
+        "options": ["Brazil", "Greece", "China", "Japan"],
+        "answer": "China"
+      },
+      {
+        "question": "How many players are on a basketball team?",
+        "options": ["5", "6", "7", "8"],
+        "answer": "5"
+      },
+      {
+        "question": "What sport does Serena Williams play?",
+        "options": ["Basketball", "Tennis", "Football", "Golf"],
+        "answer": "Tennis"
+      },
+      {
+        "question": "Which sport uses a bat and ball?",
+        "options": ["Baseball", "Basketball", "Golf", "Tennis"],
+        "answer": "Baseball"
+      },
+      {
+        "question": "What sport does Tiger Woods play?",
+        "options": ["Football", "Golf", "Basketball", "Cricket"],
+        "answer": "Golf"
+      },
+      {
+        "question": "Which country has won the most Olympic gold medals?",
+        "options": ["China", "Russia", "United States", "Germany"],
+        "answer": "United States"
+      },
+      {
+        "question": "What sport uses a puck?",
+        "options": ["Football", "Hockey", "Golf", "Tennis"],
+        "answer": "Hockey"
+      }
+    ],
+
+    "Music": [
+      {
+        "question": "Who is known as the King of Pop?",
+        "options": ["Elvis Presley", "Michael Jackson", "Prince", "Justin Timberlake"],
+        "answer": "Michael Jackson"
+      },
+      {
+        "question": "Which band was John Lennon a member of?",
+        "options": ["The Rolling Stones", "Pink Floyd", "The Beatles", "The Who"],
+        "answer": "The Beatles"
+      },
+      {
+        "question": "What instrument does a pianist play?",
+        "options": ["Guitar", "Violin", "Drums", "Piano"],
+        "answer": "Piano"
+      },
+      {
+        "question": "Who sang 'Like a Rolling Stone'?",
+        "options": ["Bob Dylan", "Elvis Presley", "The Beatles", "The Rolling Stones"],
+        "answer": "Bob Dylan"
+      },
+      {
+        "question": "Which genre of music is characterized by improvisation?",
+        "options": ["Rock", "Pop", "Jazz", "Classical"],
+        "answer": "Jazz"
+      },
+      {
+        "question": "Who sang 'Bohemian Rhapsody'?",
+        "options": ["Queen", "The Beatles", "Led Zeppelin", "Pink Floyd"],
+        "answer": "Queen"
+      },
+      {
+        "question": "What instrument does Yo-Yo Ma play?",
+        "options": ["Piano", "Violin", "Cello", "Flute"],
+        "answer": "Cello"
+      },
+      {
+        "question": "Which artist is known for 'Purple Rain'?",
+        "options": ["Prince", "Elton John", "David Bowie", "Michael Jackson"],
+        "answer": "Prince"
+      },
+      {
+        "question": "Who is the lead singer of U2?",
+        "options": ["Bono", "Mick Jagger", "Freddie Mercury", "Paul McCartney"],
+        "answer": "Bono"
+      },
+      {
+        "question": "Which composer became deaf later in life?",
+        "options": ["Mozart", "Beethoven", "Bach", "Tchaikovsky"],
+        "answer": "Beethoven"
+      }
+    ],
+
+    "Art": [
+      {
+        "question": "Who painted the Mona Lisa?",
+        "options": ["Vincent van Gogh", "Pablo Picasso", "Leonardo da Vinci", "Michelangelo"],
+        "answer": "Leonardo da Vinci"
+      },
+      {
+        "question": "What is the art movement of Picasso known as?",
+        "options": ["Impressionism", "Cubism", "Surrealism", "Expressionism"],
+        "answer": "Cubism"
+      },
+      {
+        "question": "Which artist is famous for the Starry Night painting?",
+        "options": ["Claude Monet", "Vincent van Gogh", "Salvador Dalí", "Pablo Picasso"],
+        "answer": "Vincent van Gogh"
+      },
+      {
+        "question": "Which artist is famous for the ceiling of the Sistine Chapel?",
+        "options": ["Leonardo da Vinci", "Raphael", "Michelangelo", "Donatello"],
+        "answer": "Michelangelo"
+      },
+      {
+        "question": "What style of art is Salvador Dalí known for?",
+        "options": ["Cubism", "Surrealism", "Impressionism", "Expressionism"],
+        "answer": "Surrealism"
+      },
+      {
+        "question": "What material is a marble sculpture made from?",
+        "options": ["Wood", "Clay", "Metal", "Stone"],
+        "answer": "Stone"
+      },
+      {
+        "question": "Which artist painted the 'Girl with a Pearl Earring'?",
+        "options": ["Johannes Vermeer", "Rembrandt", "Caravaggio", "Jan van Eyck"],
+        "answer": "Johannes Vermeer"
+      },
+      {
+        "question": "What is the famous sculpture by Rodin called?",
+        "options": ["The Kiss", "David", "The Thinker", "Pietà"],
+        "answer": "The Thinker"
+      },
+      {
+        "question": "Which artist is known for his blue period?",
+        "options": ["Claude Monet", "Pablo Picasso", "Vincent van Gogh", "Edvard Munch"],
+        "answer": "Pablo Picasso"
+      },
+      {
+        "question": "What art movement is Claude Monet associated with?",
+        "options": ["Impressionism", "Cubism", "Surrealism", "Expressionism"],
+        "answer": "Impressionism"
+      }
+    ],
+
+    "Programming Languages": [
+      {
+        "question": "Which language is primarily used for web development alongside HTML and CSS?",
+        "options": ["JavaScript", "Python", "Java", "C++"],
+        "answer": "JavaScript"
+      },
+      {
+        "question": "Which programming language is known for its simplicity and readability, often used for data science?",
+        "options": ["Python", "Ruby", "PHP", "Swift"],
+        "answer": "Python"
+      },
+      {
+        "question": "Which language is used to create Android applications?",
+        "options": ["Java", "Swift", "Kotlin", "Objective-C"],
+        "answer": "Kotlin"
+      },
+      {
+        "question": "What is the most widely used language for creating web servers?",
+        "options": ["Node.js", "Ruby", "PHP", "Perl"],
+        "answer": "Node.js"
+      },
+      {
+        "question": "What language is used in the development of iOS applications?",
+        "options": ["Swift", "Objective-C", "C#", "Java"],
+        "answer": "Swift"
+      },
+      {
+        "question": "Which programming language is known for its use in scientific computing and artificial intelligence?",
+        "options": ["Lisp", "JavaScript", "COBOL", "Fortran"],
+        "answer": "Lisp"
+      },
+      {
+        "question": "Which of these is not a compiled language?",
+        "options": ["Python", "C++", "Go", "Rust"],
+        "answer": "Python"
+      },
+      {
+        "question": "Which language is commonly used for statistical analysis and data visualization?",
+        "options": ["R", "SQL", "C", "Ruby"],
+        "answer": "R"
+      },
+      {
+        "question": "Which of the following is a functional programming language?",
+        "options": ["Haskell", "PHP", "Perl", "C"],
+        "answer": "Haskell"
+      },
+      {
+        "question": "Which programming language is known for its concurrency and use in distributed systems?",
+        "options": ["Go", "Python", "C++", "PHP"],
+        "answer": "Go"
+      }
+    ]
+  }
+
+
+}
