@@ -1,5 +1,4 @@
 import json
-import pathlib
 
 def get_data(opt):
     match opt:
@@ -7,7 +6,6 @@ def get_data(opt):
             return(get_section())
         case "question":
             return(get_questions(opt))
-
 
 def get_options():
     sections = get_data("sections")
@@ -48,8 +46,4 @@ def get_section():
         section = list(data['sections'].keys())
     
     return section
-    
-def get_the_questions():
-    pass
-
     
