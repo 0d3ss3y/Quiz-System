@@ -73,9 +73,10 @@ public class data_reader {
 
             String content = new String(inputStream.readAllBytes(), StandardCharsets.UTF_8);
             JsonObject json = JsonParser.parseString(content).getAsJsonObject();
+            JsonObject sections = json.getAsJsonObject("sections");
 
             if (json.has(category)) {
-                JsonArray questionArray = json.getAsJsonArray(category);
+                JsonArray questionArray = sections.getAsJsonArray(category);
 
                 for (int i = 0; i < questionArray.size(); i++) {
                     JsonObject question = questionArray.get(i).getAsJsonObject();
@@ -106,7 +107,7 @@ public class data_reader {
 
             String content = new String(inputStream.readAllBytes(), StandardCharsets.UTF_8);
             JsonObject data = JsonParser.parseString(content).getAsJsonObject();
-            JsonObject section = data.getAsJsonObject("section");
+            JsonObject section = data.getAsJsonObject("sections");
 
             Set<String> sectionnames = section.keySet();
             sections.addAll(sectionnames);
