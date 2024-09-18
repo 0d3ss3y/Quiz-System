@@ -14,30 +14,26 @@ import java.util.*;
 public class data_reader {
     private static final Scanner scanner = new Scanner(System.in);
 
-    public static List<String> get_data() {
+    public static String get_data() {
         List<String> sections = get_Sections();
 
         if (sections.isEmpty()) {
             System.out.println("No data found");
-            return Collections.emptyList();
+            return null;
         }
 
-        String selected_section = selected_section(sections);
-
-        if (selected_section != null)
-            return get_Question(selected_section);
-        return Collections.emptyList();
+        return selected_section(sections);
     }
 
     private static String selected_section(List<String> sections) {
         while (true) {
             try {
-                System.out.println("\nAvailable sections:");
+                System.out.println("Available sections:");
                 for (int i = 0; i < sections.size(); i++) {
                     System.out.println("[" + (i + 1) + "] " + sections.get(i));
                 }
 
-                System.out.println("\nEnter your preferred section (number): ");
+                System.out.print("\nEnter your preferred section (number): ");
                 if (scanner.hasNextInt()) {
                     int selection = scanner.nextInt();
                     scanner.nextLine();
@@ -59,8 +55,8 @@ public class data_reader {
         }
     }
 
-    private static List<String> get_Question(String category){
-        List<String> questions = new ArrayList<>();
+    public static List<Map<String,String>> get_Question(String category){
+        List<Map<String,String>> questions = new ArrayList<>();
 
         try (InputStream inputStream = data_reader.class.getClassLoader().getResourceAsStream("quiz_data.json")){
 
@@ -79,7 +75,14 @@ public class data_reader {
                 for (int i = 0; i < questionArray.size(); i++) {
                     JsonObject question = questionArray.get(i).getAsJsonObject();
                     String quesText = question.get("question").getAsString();
-                    questions.add(quesText);
+                    String quesOpt = question.get("options").toString();
+                    String quesAns = question.get("answer").getAsString();
+
+                    Map<String,String> question_map = new HashMap<>();
+                    question_map.put("question", quesText);
+                    question_map.put("options", quesOpt);
+                    question_map.put("answer", quesAns);
+                    questions.add(question_map);
                 }
             } else {
                 System.out.println("Category not found: " + category);
