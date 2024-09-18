@@ -3,14 +3,12 @@ package org.side.functions.reader;
 import java.io.IOException;
 import java.io.InputStream;
 import java.nio.charset.StandardCharsets;
-import java.nio.file.Files;
 
 import com.google.gson.JsonArray;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
 import com.google.gson.JsonSyntaxException;
 
-import java.nio.file.Paths;
 import java.util.*;
 
 public class data_reader {
@@ -75,7 +73,7 @@ public class data_reader {
             JsonObject json = JsonParser.parseString(content).getAsJsonObject();
             JsonObject sections = json.getAsJsonObject("sections");
 
-            if (json.has(category)) {
+            if (sections.has(category)) {
                 JsonArray questionArray = sections.getAsJsonArray(category);
 
                 for (int i = 0; i < questionArray.size(); i++) {
