@@ -16,19 +16,18 @@ public class sheet {
         for (Map<String,String> ques : ques_sheet) {
             String answer = ques.get("answer");
             String options = ques.get("options");
-            System.out.println("Question: " + ques.get("question"));
-            String attempt = displayOptions(options);
-            boolean compareAns = answer.equals(attempt);
+            System.out.println("\nQuestion: " + ques.get("question"));
+            Boolean attempt = displayOptions(options, answer);
 
-            if (compareAns)
+            if (attempt)
                 score++;
 
         }
         return score;
     }
 
-    private static String displayOptions(String options) {
-        char opt = 'A';
+    private static Boolean displayOptions(String options, String correct_answer) {
+        char selection = 'A';
         String answer = "";
 
         options = options.replace("[", "")
@@ -36,12 +35,28 @@ public class sheet {
                 .replace("\"", "")
                 .trim();
 
-        for (String option : options.split(",")) {
-            System.out.println("["+opt+"] " +option.trim());
-            opt++;
+        String[] option = options.split(",");
+
+        for (String opt : option) {
+            System.out.println("["+ selection +"] " +opt.trim());
+            selection++;
         }
         System.out.print("\nAnswer: ");
-        answer = scanner.nextLine();
-        return answer;
+        answer = scanner.nextLine().trim().toUpperCase();
+
+        int attemptIdx = answer.charAt(0) - 'A';
+
+        if (attemptIdx >= 0 && attemptIdx < options.length()){
+            String attempt = option[attemptIdx].trim();
+            boolean correct = compareAnswers(correct_answer, attempt);
+
+            if (correct)
+                return Boolean.TRUE;
+        }
+        return Boolean.FALSE;
+    }
+
+    private static boolean compareAnswers(String answer, String attempt) {
+        return answer.equals(attempt);
     }
 }

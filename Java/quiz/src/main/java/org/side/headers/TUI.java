@@ -9,6 +9,14 @@ public interface TUI {
         System.out.println("================================");
     }
 
+    static void displayTotal(int score) {
+        System.out.println("================================");
+        System.out.println("        Quiz Completed!");
+        System.out.println("================================");
+        System.out.println("Your total score is: " + score + " out of "+ test_no +".");
+        System.out.println("================================");
+    }
+
     static void displayRules() {
         System.out.println("\nRules of the Quiz:");
         System.out.println("1. Each question has four options (A, B, C, D).");

@@ -16,11 +16,5 @@ public class quiz {
         displayTotal(score);
     }
 
-    private static void displayTotal(int score) {
-        System.out.println("================================");
-        System.out.println("        Quiz Completed!");
-        System.out.println("================================");
-        System.out.println("Your total score is: " + score + " out of "+ test_no +".");
-        System.out.println("================================");
-    }
+
 }
