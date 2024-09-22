@@ -32,6 +32,7 @@ public class data_reader {
                 for (int i = 0; i < sections.size(); i++) {
                     System.out.println("[" + (i + 1) + "] " + sections.get(i));
                 }
+                System.out.println("[" + (sections.size() + 1) + "] " + "Exit");
 
                 System.out.print("\nEnter your preferred section (number): ");
                 if (scanner.hasNextInt()) {
@@ -40,6 +41,11 @@ public class data_reader {
 
                     if (selection >= 1 && selection <= sections.size()) {
                         return sections.get(selection - 1);
+                    } else if (selection == sections.size()+1){
+                        System.out.println("Quitting Test");
+                        System.exit(0);
+                        scanner.close();
+                        return null;
                     } else {
                         System.out.println("Invalid selection. Please choose a number between 1 and " + sections.size() + ".");
                     }

@@ -13,7 +13,7 @@ public class quiz {
         String category = get_data();
         int score = question_sheet(category);
         clearing();
-        displayTotal(score);
+        displayTotal(score,test_no);
     }
 
 

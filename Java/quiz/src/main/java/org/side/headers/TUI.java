@@ -9,11 +9,11 @@ public interface TUI {
         System.out.println("================================");
     }
 
-    static void displayTotal(int score) {
+    static void displayTotal(int score, int total) {
         System.out.println("================================");
         System.out.println("        Quiz Completed!");
         System.out.println("================================");
-        System.out.println("Your total score is: " + score + " out of "+ test_no +".");
+        System.out.println("Your total score is: " + score + " out of "+ total +".");
         System.out.println("================================");
     }
 
