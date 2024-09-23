@@ -5,7 +5,7 @@ A comprehensive command-line and web-based quiz system that supports multiple pr
 ## Features
 - **Multi-Language Support**: Implemented in Python and Java, with a web version using HTML, CSS, and JavaScript.
 - **Category Selection**: Choose from different categories of questions (e.g., Sports, General Knowledge, etc.).
-- **Multiple-Choice Questions**: Answer questions with options labeled [A], [B], [C], etc.
+- **Multiple-Choice Questions**: Answer questions with options labeled [A], [B], [C], [D].
 - **Immediate Feedback**: Get instant feedback on your answers.
 - **Score Calculation**: Displays total score and percentage at the end of the quiz.
 
@@ -39,7 +39,7 @@ A comprehensive command-line and web-based quiz system that supports multiple pr
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/your-username/quiz-system.git
+   git clone https://github.com/0d3ss3y/quiz-system.git
    cd quiz-system/python
    ```
 
@@ -58,7 +58,7 @@ A comprehensive command-line and web-based quiz system that supports multiple pr
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/your-username/quiz-system.git
+   git clone https://github.com/0d3ss3y/quiz-system.git
    cd quiz-system/java
    ```
 
@@ -72,7 +72,7 @@ A comprehensive command-line and web-based quiz system that supports multiple pr
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/your-username/quiz-system.git
+   git clone https://github.com/0d3ss3y/quiz-system.git
    cd quiz-system/web
    ```
 
